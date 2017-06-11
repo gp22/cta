@@ -1,0 +1,24 @@
+.secondary-nav {
+  align-self: center;
+  font-size: .8rem;
+
+  a {
+    color: $black;
+    padding-bottom: .3rem;
+  }
+
+  a:hover {
+    font-weight: bolder;
+    border-bottom: 4px solid $main;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+    margin-right: 1.5rem;
+  }
+}

@@ -1,0 +1,15 @@
+.large-hero {
+  background-color: $hero-background;
+  text-transform: uppercase;
+
+  &--title {
+    margin: 2.5rem 0;
+    font-family: $main-font, sans-serif;
+    color: $black;
+    font-size: 3rem;
+  }
+
+  &--title__orange {
+    color: $main;
+  }
+}

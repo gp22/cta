@@ -1,0 +1,12 @@
+.breadcrumbs {
+  margin: 2.5rem 0;
+
+  h4 {
+    margin: 0;
+    font-weight: 600;
+  }
+
+  &__active {
+    color: $text-default-dark;
+  }
+}

@@ -1,0 +1,44 @@
+.main-nav {
+  background-color: $main;
+  color: $main-text;
+  font-weight: bolder;
+  font-family: $main-font, sans-serif;
+  text-transform: uppercase;
+
+  a {
+    color: $main-text;
+
+    &.main-nav--dark-text {
+      color: $main-dark;
+    }
+  }
+
+  &--cta {
+    letter-spacing: 1px;
+    margin: 0 .6rem 0 0;
+    padding: 0.5rem 0;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &--dark-text {
+    color: $main-dark;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+    margin-right: .6rem;
+    padding: 0.5rem 0;
+
+  &:last-child {
+      margin-right: 0;
+    }
+  }
+}
